@@ -79,7 +79,7 @@ def action
 
 def end_of_game
   if hand_total(@dealer_hand) == 21 #//checks for dealer blackjack
-    "blackjack! You lose"
+  puts  "blackjack! You lose"
     joshua
   end
   puts display_hand(@dealer_hand)

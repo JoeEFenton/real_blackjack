@@ -13,7 +13,7 @@ def self.faces
 end
 
 def self.suits
-  %w(Hearts Clovers Arrows Diamonds)
+  %w(Hearts Diamonds Spades Clubs)
 end
 
 def set_value
